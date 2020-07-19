@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/navigationbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/ripple"
+        android:onClick="onClickNavigation"
+        android:padding="12dp"
+        android:text="Navigation"
+        android:textAllCaps="false"
+        android:textColor="#66F9B0"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/locatebtn"
+        app:layout_constraintTop_toBottomOf="@+id/coordinates" />
+
+    <Button
+        android:id="@+id/locatebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/ripple"
+        android:onClick="onClickLocateOnMap"
+        android:padding="12dp"
+        android:text="Locate On Map"
+        android:textAllCaps="false"
+        android:textColor="#66F9B0"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/navigationbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coordinates" />
+
+    <Button
+        android:id="@+id/nearbybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/ripple"
+        android:onClick="onClickNearby"
+        android:padding="12dp"
+        android:text="Nearby Hospitals"
+        android:textAllCaps="false"
+        android:textColor="#66F9B0"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locatebtn" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/ripple"
+        android:onClick="onClickNearbyps"
+        android:padding="12dp"
+        android:text="Nearby Police Station"
+        android:textAllCaps="false"
+        android:textColor="#66F9B0"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nearbybtn"
+        app:layout_constraintTop_toBottomOf="@+id/locatebtn" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/ripple"
+        android:onClick="onClickGetAddress"
+        android:padding="12dp"
+        android:text="Get Address"
+        android:textAllCaps="false"
+        android:textColor="#66F9B0"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nearbybtn" />
+
+    <TextView
+        android:id="@+id/messagetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_text"
+        android:padding="20dp"
+        android:text="Status : Safe"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/coordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/custom_text"
+        android:padding="10dp"
+        android:text="Coordinate :- \n"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messagetext" />
+</androidx.constraintlayout.widget.ConstraintLayout>
