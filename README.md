@@ -34,16 +34,16 @@ As soon as the accident is detected the location of the driver is conveyed to ho
   <img width="50%" height="50%" src="https://github.com/krishnapatil1406/Accident-Detection-with-GPS-Tracking-and-Messaging-System/blob/master/Images/model.jpg">
 </p>
 
-### Emergency Contact Android App
-
-<p>
-  <img width="30%" height="30%" src="https://github.com/krishnapatil1406/Accident-Detection-with-GPS-Tracking-and-Messaging-System/blob/master/Images/emergency_app_screenshot.jpg">
-  <img width="30%" height="30%" src="https://github.com/krishnapatil1406/Accident-Detection-with-GPS-Tracking-and-Messaging-System/blob/master/Images/emergency_app_screenshot2.jpg">
-</p>
-
-
 ### Rider Android App
 
 <p align="center">
   <img width="30%" height="30%" src="https://github.com/krishnapatil1406/Accident-Detection-with-GPS-Tracking-and-Messaging-System/blob/master/Images/rider_app_screenshot.jpg">
 </p>
+
+### Emergency Contact Android App
+
+<p align="center">
+  <img width="30%" height="30%" src="https://github.com/krishnapatil1406/Accident-Detection-with-GPS-Tracking-and-Messaging-System/blob/master/Images/emergency_app_screenshot.jpg">
+  <img width="30%" height="30%" src="https://github.com/krishnapatil1406/Accident-Detection-with-GPS-Tracking-and-Messaging-System/blob/master/Images/emergency_app_screenshot2.jpg">
+</p>
+
