@@ -11,5 +11,5 @@ As soon as the accident is detected the location of the driver is conveyed to ho
 ### Flow Chart
 
 <p align="center"> 
-  src="https://github.com/krishnapatil1406/Accident-Detection-with-GPS-Tracking-and-Messaging-System/blob/master/Images/flow_chart.jpg">
+  <img src="https://github.com/krishnapatil1406/Accident-Detection-with-GPS-Tracking-and-Messaging-System/blob/master/Images/flow_chart.jpg">
 </p>
