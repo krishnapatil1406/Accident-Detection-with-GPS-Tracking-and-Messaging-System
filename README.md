@@ -39,6 +39,7 @@ As soon as the accident is detected the location of the driver is conveyed to ho
 <p>
   <img align="left" width="50%" height="50%" src="https://github.com/krishnapatil1406/Accident-Detection-with-GPS-Tracking-and-Messaging-System/blob/master/Images/emergency_app_screenshot.jpg">
   <img align="right" width="50%" height="50%" src="https://github.com/krishnapatil1406/Accident-Detection-with-GPS-Tracking-and-Messaging-System/blob/master/Images/emergency_app_screenshot2.jpg">
+  <br><br>
 </p>
 
 
